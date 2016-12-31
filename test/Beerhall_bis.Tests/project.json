@@ -1,4 +1,4 @@
-﻿{
+{
   "version": "1.0.0-*",
   "buildOptions": {
     "debugType": "portable"
@@ -6,18 +6,17 @@
   "dependencies": {
     "Beerhall_bis": "1.0.0-*",
     "dotnet-test-xunit": "1.0.0-rc2-build10025",
+    "Microsoft.EntityFrameworkCore": "1.1.0",
+    "Microsoft.EntityFrameworkCore.SqlServer": "1.1.0",
+    "Microsoft.NETCore.App": "1.1.0",
     "Moq": "4.6.38-alpha",
-    "System.Runtime.Serialization.Primitives": "4.1.1",
+    "System.Runtime.Serialization.Primitives": "4.3.0",
     "xunit": "2.1.0"
   },
   "testRunner": "xunit",
   "frameworks": {
     "netcoreapp1.0": {
       "dependencies": {
-        "Microsoft.NETCore.App": {
-          "type": "platform",
-          "version": "1.0.1"
-        }
       },
       "imports": [
         "dotnet5.4",
